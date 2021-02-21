@@ -1,0 +1,30 @@
+.plan {
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  border-color: rgba(12, 70, 105, 0.3);
+  
+  padding-bottom: 50px;
+  h1 {
+    margin: 50px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #0c4669;
+
+    @media (max-width: 991.98px) {
+      text-align: center;
+    }
+
+    @media (max-width: 575.98px) {
+      font-size: 24px;
+    }
+  }
+
+  .plan_block {
+    img {
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+}
